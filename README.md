@@ -1,18 +1,18 @@
 # Practica01-MiPrimerSitioWeb
-Creación de mi primer sitio web HTML
-1.	Desarrollo de las páginas web.
+## Creación de mi primer sitio web HTML
+## 1.	Desarrollo de las páginas web.
 
-Tema: El tema central es la divulgación de información sobre videojuegos, hardware, software y todo lo que conlleva, para lo cuál se creó 9 archivos HTML, con las siguientes etiquetas:
+### Tema: El tema central es la divulgación de información sobre videojuegos, hardware, software y todo lo que conlleva, para lo cuál se #creó 9 archivos HTML, con las siguientes etiquetas:
 
-Para esta práctica se usó una estructura básica, siendo index.html el punto referencia para las demás. La etiqueta “<head>” tiene la misma funcionalidad para el resto de las páginas, donde se declaró el conjunto de caracteres “utf-8”, y las keywords correspondientes a la subtemática de cada archivo. 
+### Para esta práctica se usó una estructura básica, siendo index.html el punto referencia para las demás. La etiqueta “<head>” ### tiene la #misma funcionalidad para el resto de las páginas, donde se declaró el conjunto de caracteres “utf-8”, y las keywords ### correspondientes a #la subtemática de cada archivo. 
 
-Para esta práctica se usó como estándar la siguiente estructura, que contiene el inicio de <body>, donde la etiqueta <header> hace referencia al encabezado del sitio, que incluye el logo y un menú de navegación con la etiqueta <nav>, que cuenta con los apartados: inicio, juegos, novedades, hardware, descubre, eventos, gameplays, soundtrack y sobre nosotros. 
+### Para esta práctica se usó como estándar la siguiente estructura, que contiene el inicio de <body>, donde la etiqueta <header> hace referencia al encabezado del sitio, que incluye el logo y un menú de navegación con la etiqueta <nav>, que cuenta con los partados: #inicio, juegos, novedades, hardware, descubre, eventos, gameplays, soundtrack y sobre nosotros. 
 
-Cabe recalcar que cada archivo HTML de la práctica cuenta con este encabezado, para efectos de estética del sitio. Sin embargo, se incluirá capturas de las etiquetas <head> y <body> para efectos de documentación. 
+### Cabe recalcar que cada archivo HTML de la práctica cuenta con este encabezado, para efectos de estética del sitio. Sin embargo, se incluirá capturas de las etiquetas <head> y <body> para efectos de documentación. 
  
-La etiqueta <footer> también se usó como un estándar para todos los archivos HTML, donde se escribe al autor, el email con la etiqueta <a>, y un “href=mailto”, para que el usuario puede enviar un correo con un click, con la misma intención se usó “href=tel”, con el número de teléfono del autor, y la leyenda Todos los derechos reservados con su símbolo, para lo cual se usó “&copy;”.
+### La etiqueta <footer> también se usó como un estándar para todos los archivos HTML, donde se escribe al autor, el email con la etiqueta <a>, y un “href=mailto”, para que el usuario puede enviar un correo con un click, con la misma intención se usó “href=tel”, con el número de teléfono del autor, y la leyenda Todos los derechos reservados con su símbolo, para lo cual se usó “&copy;”.
 
-1.	index.html: 
+## 1.	index.html: 
 Este archivo HTML tiene la función de dar la bienvenida a los usuarios de la página, presentando las novedades del sitio, normalmente una noticia que esté publicada en el apartado de Novedades. 
 
 •	Se usó la etiqueta <h1> para escribir la temática principal del sitio, por ejemplo, en index.html da la bienvenida. 
@@ -26,7 +26,7 @@ Este archivo HTML tiene la función de dar la bienvenida a los usuarios de la p�
 •	En este caso, se usó <aside> fuera de <article>, ya que no corresponde al tema que se estaba hablado, ya que habla de unos rumores no confirmados de otra fuente, donde el usuario puede dar click al dominio del sitio donde fue tomado, porque cuenta con un <a> con atributo “target=”_blank”” que abrirá el enlace en otra página en blanco para que no se cierre el sitio.
   
   
-2.	events.html: 
+## 2.	events.html: 
 Este archivo presenta los eventos sobre videojuegos que estén ocurriendo en la actualidad.
 
 •	Se usó <h1> para mostrar “Eventos” y hacer referencia de lo que trata el apartado. Se usó un <section> junto a <h2> para describir de lo que trata esta sección, en este caso E-Sport. Para este sitio se usó un estándar, por lo que cada articulo que se escriba en él, debe contar con:
@@ -36,7 +36,7 @@ o	Un apartado multimedia, una foto o video que hable sobre el tema.
 
 •	El sitio tiene otro artículo, con la misma estructura de la anterior, que da como finalizado a la página web.
  
-3.	gameplays.html
+## 3.	gameplays.html
 Este sitio se encarga de presentar playlists de juegos modo historia y modalidad online.
  
 Se usó <h1> para presentar la temática, “Gameplays”, donde tiene dos secciones <section>, Playlist, donde contiene playlist de franquicias de videojuegos, como Star Wars Jedi. 
@@ -47,7 +47,7 @@ La siguiente sección trata de Multijugador, donde se usó la misma estructura p
 
 Finalmente, el pie de página de este archivo.
 
-4.	soundtrack.html
+## 4.	soundtrack.html
 En este sitio se hace una recopilación de los mejores soundtracks sobre videojuegos.
 
 Se usó <h1> para especificar la temática del sitio, Soundtrack. Se planteó usar dos <section>, videojuegos y trailers, para diferenciar a los tipos de videojuegos, se usó <article>, <h3> se usó para el título de cada <article>, con un párrafo <p> que describe los soundtranks de los videojuegos. 
@@ -61,7 +61,7 @@ El siguiente apartado, Trailers, se siguió la misma lógica del anterior. Con l
  
 Finalmente, termina el archivo con el pie de página.
 
-5.	hardware.html
+## 5.	hardware.html
 En este apartado, se describen los componentes utilizados en computadoras o consoladas destinadas a los videojuegos.
 
 El archivo de estructura con <h1> que describe la temática del sitio, “Hardware”. En este caso se usó dos <section>, uno para hardware centrado en PC/Laptops, y otro destinado para consolas. Cada sección posee <article>, donde se concentra la información del dispositivo en cuestión, cada <article> usa un <h3> para los títulos, cada articulo tiene una o varias imágenes con <img>, con los atributos, “width=500” y un “height=400”.
@@ -74,7 +74,7 @@ También se usó un video con la etiqueta <video>, para la cual, se incluyeron l
  
 Finalmente se termina el archivo con el pie de página estándar para todos los archivos.
  
-6.	news.html
+## 6.	news.html
 En este apartado muestran las noticias relacionados al tema de videojuegos, hardware o software.
 
 Se usó  <h1> para presentar el tema de lo que trata este sitio. Para este sitio se usó dos <section>, uno de ellos trata de videos y otro post, que trata de noticias presentadas en <article> escritos, con diferentes temas, ejemplo, realidad virtual. Para los títulos se usó <h3>, seguido de <blockquote>, que agrupa los diferentes videos, con <h4> para los títulos de cada video y una descripción en un párrafo <p>. Para los videos se usó <iframe> con videos enlazados de YouTube.
@@ -85,11 +85,11 @@ También se utilizó un <ul> lista no organizada, con su <li> para cada ítem.
   
 Finalmente se termina con el pie de página estándar para todos los archivos HTML.
 
-7.	about.html
+## 7.	about.html
 En esta página se describe sobre qué trata la página web.
 
 Se usó un <article>, con un <h1> para el título “Sobre Nosotros”, y un <img> con imagen centrada en el ambiente del sitio.
-8.	find.html
+## 8.	find.html
 En este sitio, se describen recomendaciones que el sitio proporciona a los usuarios.
 
 Para el título se usó <h1>, en este sitio se usó dos <section> uno para Juegos y hardware recomendados. Para cada sección se usó <h2> para los títulos, cada juego se diferencia con <article> con títulos en <h3>. Para imágenes <img>, cada juego tiene un trailer con <frame>. 
@@ -102,7 +102,7 @@ Para la siguiente sección se utilizó una estructura antes explicada, <h2> tít
  
 También se usó un <aside> dentro del <article>, ya que es algo relacionado con el tema, pero no relevante para el mismo. Y finalmente termina con el pie de página estándar para todos los archivos HTML.
 
-9.	games.html
+## 9.	games.html
 En este apartado, describe datos informativos referente a sagas de videojuegos, con historia, requerimientos y videos relacionados.
 
 En este caso se optó por utilizar un <nav> para navegar por las secciones de la página, con una lista ordenada <ol>, para lo cual, la etiqueta <a>, y los atributos, href para el enlace a las secciones, con lo cual, se debe incluir el archivo, numeral y el id, explicado en el siguiente apartado.
