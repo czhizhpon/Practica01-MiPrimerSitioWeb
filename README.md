@@ -40,7 +40,7 @@ Este sitio se encarga de presentar playlists de juegos modo historia y modalidad
  
 Se usó h1 para presentar la temática, “Gameplays”, donde tiene dos secciones section, Playlist, donde contiene playlist de franquicias de videojuegos, como Star Wars Jedi. 
 
-Para exponer los videos se usó iframe, con los atributos, “width=850”, “height=500”, src con la dirección embed de la lista, para la cual, hay que incluir después de /embed/, “playlist?list=id”, donde id, es el identificador de la lista en cuestión. También se permitió: accelerometer, autoplay, encrypted-media, gyroscope, picture-in-picture. También se permitió entrar en la modalidad pantalla completa con “allowfullscreen”. Todo esto dentro de un <blockquote> con la intención de hacer un énfasis y porque es un recurso de otro sitio web. Además de incluir un párrafo con la descripción del video en cuestión.
+Para exponer los videos se usó iframe, con los atributos, “width=850”, “height=500”, src con la dirección embed de la lista, para la cual, hay que incluir después de "/embed/", “playlist?list=id”, donde id, es el identificador de la lista en cuestión. También se permitió: accelerometer, autoplay, encrypted-media, gyroscope, picture-in-picture. También se permitió entrar en la modalidad pantalla completa con “allowfullscreen”. Todo esto dentro de un <blockquote> con la intención de hacer un énfasis y porque es un recurso de otro sitio web. Además de incluir un párrafo con la descripción del video en cuestión.
 
 La siguiente sección trata de Multijugador, donde se usó la misma estructura para los article del anterior section.
 
@@ -91,7 +91,7 @@ Se usó un article, con un h1 para el título “Sobre Nosotros”, y un img con
 ## 8.	find.html
 En este sitio, se describen recomendaciones que el sitio proporciona a los usuarios.
 
-Para el título se usó h1, en este sitio se usó dos section uno para Juegos y hardware recomendados. Para cada sección se usó h2 para los títulos, cada juego se diferencia con article con títulos en h3. Para imágenes img, cada juego tiene un trailer con <frame>. 
+Para el título se usó h1, en este sitio se usó dos section uno para Juegos y hardware recomendados. Para cada sección se usó h2 para los títulos, cada juego se diferencia con article con títulos en h3. Para imágenes img, cada juego tiene un trailer con frame. 
   
 •	Para describir los requerimientos se utilizaron tablas table, con border = 2, como se pidió en la práctica, a pesar de ser un atributo que ya no está soportado en HTML 5. 
 
@@ -104,7 +104,7 @@ También se usó un aside dentro del article, ya que es algo relacionado con el 
 ## 9.	games.html
 En este apartado, describe datos informativos referente a sagas de videojuegos, con historia, requerimientos y videos relacionados.
 
-En este caso se optó por utilizar un <nav> para navegar por las secciones de la página, con una lista ordenada ol, para lo cual, la etiqueta <a>, y los atributos, href para el enlace a las secciones, con lo cual, se debe incluir el archivo, numeral y el id, explicado en el siguiente apartado.
+En este caso se optó por utilizar un nav para navegar por las secciones de la página, con una lista ordenada ol, para lo cual, la etiqueta a, y los atributos, href para el enlace a las secciones, con lo cual, se debe incluir el archivo, numeral y el id, explicado en el siguiente apartado.
  
 Se usó h1 para el título sobre el videojuego que se va a hablar, la página tiene 4 section que son: historia, características, requerimientos y videos. Donde tiene 3 article, que son algo nuevo, que describe las novedades, legado y críticas.
   
